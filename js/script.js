@@ -97,21 +97,7 @@ $(".lx-main-menu > i").on("click",function(){
 	}
 	
 	return false;
-});	
-
-// Responsive color setting event
-$(".lx-color-setting > i").on("click",function(){
-	
-	var colorSetting = $(".lx-color-setting");
-	if(colorSetting.css("right") == "-145px"){
-		colorSetting.css("right","0px");
-	}
-	else{
-		colorSetting.css("right","-145px");
-	}
-	
-	return false;
-});	
+});
 
 // Responsive color event
 $(".lx-colors a").on("click",function(){
