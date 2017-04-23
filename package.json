@@ -1,6 +1,7 @@
 {
   "name": "mysite",
   "version": "0.1.0",
+  "homepage": "http://iamashraful.github.io",
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
